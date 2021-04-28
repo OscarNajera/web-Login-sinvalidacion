@@ -1,0 +1,113 @@
+body {
+  background-image: url(../img/bg.jpg);
+  color: gray;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .contenedor .contenedor-centardo {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contenedor-centardo {
+  width: 380px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: relative;
+}
+
+.contenedor-centardo h1 {
+  color: #ffffff;
+}
+
+.contenedor-centardo div {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+}
+
+.contenedor-centardo .form-bajo {
+  margin-top: 100px;
+  text-align: left;
+}
+
+.formulario input {
+  width: 100%;
+  height: 35px;
+  background-color: #4e4e4e;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.formulario label {
+  position: absolute;
+  color: currentColor;
+  top: 16px;
+  left: 11px;
+}
+
+.formulario label:hover {
+  font-size: 10px;
+}
+
+.formulario .enviar {
+  background-color: #820000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.info div {
+  display: flex;
+}
+
+.info .lpos {
+  position: relative;
+  flex: 0 0 50%;
+}
+
+.info a {
+  flex: 0 0 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #afaaaa;
+}
+
+footer div {
+  padding: 0px 25px;
+}
+
+footer .foot-de {
+  align-self: center;
+}
